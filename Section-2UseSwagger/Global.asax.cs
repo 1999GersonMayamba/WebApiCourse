@@ -13,6 +13,8 @@ namespace Section_2UseSwagger
     {
         protected void Application_Start()
         {
+            SwaggerConfig.Register();
+           // GlobalConfiguration.Configure(WebApiConfig.Register);
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
         }

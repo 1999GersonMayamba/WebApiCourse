@@ -7,15 +7,21 @@ using System.Web.Http;
 
 namespace Section_2UseSwagger.Controllers
 {
+   // [AuthorizationHeaderHandler]
+
     public class ValuesController : ApiController
     {
+        // Restrict by user:
+       // [Authorize(Users = "Alice,Bob")]
         // GET api/values
+        [Route("api/Values")]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
         // GET api/values/5
+        [Route("api/Values/{id:int:min(1)}")]
         public string Get(int id)
         {
             return "value";

@@ -11,6 +11,9 @@ namespace Section_2UseSwagger
         {
             // Serviços e configuração da API da Web
 
+            //config.Filters.Add(new AuthorizeAttribute());
+            GlobalConfiguration.Configuration.MessageHandlers.Add(new AuthorizationHeaderHandler());
+
             // Rotas da API da Web
             config.MapHttpAttributeRoutes();
 

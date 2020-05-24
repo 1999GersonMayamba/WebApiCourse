@@ -12,7 +12,7 @@ namespace Section_2UseSwagger.Controllers
     public class ValuesController : ApiController
     {
         // Restrict by user:
-       // [Authorize(Users = "Alice,Bob")]
+        //[AuthorizationHeaderHandler]
         // GET api/values
         [Route("api/Values")]
         public IEnumerable<string> Get()
@@ -30,16 +30,19 @@ namespace Section_2UseSwagger.Controllers
         // POST api/values
         public void Post([FromBody]string value)
         {
+
         }
 
         // PUT api/values/5
         public void Put(int id, [FromBody]string value)
         {
+
         }
 
         // DELETE api/values/5
         public void Delete(int id)
         {
+
         }
     }
 }

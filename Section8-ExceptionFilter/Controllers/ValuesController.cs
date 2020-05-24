@@ -126,6 +126,7 @@ namespace Section8_ExceptionFilter.Controllers
             }
         }
 
+
         //HttpError e validação de modelo
         //Para a validação do modelo, você pode passar o estado do modelo para CreateErrorResponse, 
         //para incluir os erros de validação na resposta:
@@ -137,10 +138,12 @@ namespace Section8_ExceptionFilter.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, "Aluno cadastrado com sucesso");
         }
 
+
         // PUT api/values/5
         public void Put(int id, [FromBody]string value)
         {
         }
+
 
         // DELETE api/values/5
         public void Delete(int id)

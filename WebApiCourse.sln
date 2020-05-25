@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section-2UseSwagger", "Sect
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section8-ExceptionFilter", "Section8-ExceptionFilter\Section8-ExceptionFilter.csproj", "{31A6B12A-27A4-4671-B2F2-42AE478D3C08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section6-Authorization", "Section6-Authorization\Section6-Authorization.csproj", "{A975D431-75D0-449E-AE76-631A81AE6B0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{31A6B12A-27A4-4671-B2F2-42AE478D3C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31A6B12A-27A4-4671-B2F2-42AE478D3C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31A6B12A-27A4-4671-B2F2-42AE478D3C08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A975D431-75D0-449E-AE76-631A81AE6B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A975D431-75D0-449E-AE76-631A81AE6B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A975D431-75D0-449E-AE76-631A81AE6B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A975D431-75D0-449E-AE76-631A81AE6B0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

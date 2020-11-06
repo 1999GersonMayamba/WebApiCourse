@@ -124,6 +124,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="AuthFilters\AddChallengeOnUnauthorizedResult.cs" />
+    <Compile Include="AuthFilters\AuthenticationBearerBodyApi_Key.cs" />
+    <Compile Include="AuthFilters\AuthenticationFailureResult.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
